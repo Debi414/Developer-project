@@ -1,8 +1,17 @@
 import "./App.css";
-import React from "react";
+import Navbar from "./components/Navbar";
+import Routing from "./components/Routing";
+import Footer from "./components/Footer";
 
 function App() {
-  return React.createElement('h1', null, 'Hello World!');
+  return (
+    <>
+      <Navbar />
+      <Routing />
+      <Footer />
+    </>
+  );
 }
+
 
 export default App;

@@ -16,7 +16,6 @@ export default function Routing() {
       <Route path="/reservations" element={<Reservation />} />
 
       <Route path="/order" element={<Order />} />
-
       <Route path="/login" element={<Login />} />
 
       <Route path="/confirmation" element={<Confirmation />} />
